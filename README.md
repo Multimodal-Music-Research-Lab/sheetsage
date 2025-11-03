@@ -54,7 +54,7 @@ If the downbeats are _still_ incorrect, try nudging your timestamps until the co
 
 Our [paper](https://arxiv.org/abs/2212.01884) demonstrates that using features from [OpenAI Jukebox](https://openai.com/blog/jukebox) can improve transcription performance. To enable this feature, you must first ensure you have a GPU w/ at least 12GB memory and CUDA installed (`nvidia-smi` should list your GPU). Then, run `./prepare.sh -j` which will download ~10GB of additional files (most of this is the Jukebox model) to `~/.sheetsage`. Then, run:
 
-**`./sheetsage.sh -j <YOUR_SONG>`**
+**`./sheetsage.sh -j <YOUR_SONG>`** (download the required files [here](https://drive.google.com/drive/folders/1CGuglu7XG8nhEUYO-_tA1F5I2ib2um0X?usp=drive_link) if you cannot with `./prepare.sh -j`)
 
 Note that this will likely take several minutes to complete - consider transcribing a shorter segment when using Jukebox (see [above](#transcribing-a-shorter-segment))
 
