@@ -22,7 +22,7 @@ This will create a directory `output/<UUID>` containing a PDF with the lead shee
 
 You can also run Sheet Sage on a local file:
 
-**`./sheetsage.sh my_song.mp3`**
+**`./sheetsage.sh my_song.mp3 --measures_per_chunk 4`**
 
 ### Improving results
 
