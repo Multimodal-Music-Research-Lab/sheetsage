@@ -12,6 +12,8 @@ First, ensure you are running Linux and have [Docker installed](https://docs.doc
  ROOT=https://raw.gitmirror.com/chrisdonahue/sheetsage/main; wget $ROOT/prepare.sh && wget $ROOT/sheetsage.sh && chmod +x *.sh && ./prepare.sh.2
 ```
 
+If you run into 403 error, download [this file](https://mega.nz/file/j9YyWbAK#LjROFI9qxGq6Om9dx9HaORd5NaiYOcV8ULVUBKB0bcg) and follow the instructions at:  https://github.com/chrisdonahue/sheetsage/issues/46
+
 Once this setup completes, transcribing a song is as simple as running:
 
 **`./sheetsage.sh https://www.youtube.com/watch?v=fHI8X4OXluQ`**
